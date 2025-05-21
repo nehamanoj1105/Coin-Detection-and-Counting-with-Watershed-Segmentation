@@ -48,10 +48,33 @@ Many coin counting applications struggle with overlapping or touching coins. Thi
 pip install opencv-python numpy matplotlib
 ```
 
-## How to Run
+## How to Execute
+1. Clone the Repository
 ```bash
-python coin_counter.py path_to_image.jpg
+git clone https://github.com/yourusername/coin-counter-watershed.git
+cd coin-counter-watershed
 ```
+
+2. Install Dependencies
+```bash
+pip install opencv-python numpy matplotlib
+```
+
+3. Prepare Your Input
+   
+There are sample input images in the `input_images` folder
+
+4. Run the Script
+```bash
+python3 coin_counter.py
+```
+
+This will:
+
+Display the image with detected coins outlined and also the number of coins in the given image.
+
+Print the number of coins to the terminal.
+
 
 ## Results and Conclusion
 
